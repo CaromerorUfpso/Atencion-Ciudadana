@@ -1,0 +1,24 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Datos personales: PDF de los ciudadanos y respaldos de la base
+backend/adjuntos/
+*.backup
+*.dump
+db/*datos*.sql
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# Editor
+.vscode/*
+.idea/

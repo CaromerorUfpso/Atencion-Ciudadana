@@ -1,0 +1,11 @@
+/* Estilos globales de la aplicación. La fuente y los colores base viven en index.css;
+   el resto del diseño se resuelve con utilidades de Tailwind en cada componente. */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
